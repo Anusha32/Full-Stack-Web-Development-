@@ -16,17 +16,75 @@
         //     })
         // })
 
+        // $(document).ready(function(){
+        //     $("button").click(function(){
+        //         $("p").fadeOut();
+        //     });
+        // });
+        // $(document).ready(function(){
+        //     $("button").click(function(){
+        //         $("p").fadeIn();
+        //     });
+        // });
         
+
+        // $(document).ready(function(){
+        //     $("#flip").click(function(){
+        //         $("#pannel").slideDown("slow");
+        //     });
+        // });
+
+        // $(document).ready(function(){
+        //     $("#flip").click(function(){
+        //         $("#pannel").slideUp("slow");
+        //     });
+        // });
+        
+        // $(document).ready(function(){
+        //     $("#flip").click(function(){
+        //         $("#pannel").slideToggle();
+        //     });
+        // });
+
+        $(document).ready(function(){
+            $("#flip").click(function(){
+                $("#pannel").slideDown("slow");
+            });
+            $("#stop").click(function(){
+                $("#pannel").stop();
+            });
+        });
 
 
     </script>
+
+    <style>
+        #pannel,#flip{
+            padding: 5px;
+            text-align: center;
+            background-color: yellowgreen;
+            border: solid 1px burlywood;
+        }
+        #pannel{
+            padding: 15px;
+            /* display: none; */
+        }
+    </style>
 </head>
 <body>
-
+<!-- 
+    <h1>Heading</h1>
     <p id="test">Paragraph 1</p>
     <p class="test2">Paragraph 2</p>
 
-    <button>Click me to hide the paragraph</button>
+    <button class="btn1">Click me to hide the paragraph</button> -->
     
+
+    <h2>Sliding Effects</h2>
+    <p id="flip"> slide 1</p>
+    <p id="pannel">Slide</p>
+    <p id="stop">STOP</p>
+
+
 </body>
 </html>
