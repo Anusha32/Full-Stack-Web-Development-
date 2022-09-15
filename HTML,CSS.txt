@@ -1,0 +1,87 @@
+---------------------------------------html-------------------------------------
+html and css can run independently 
+<video id="video" preload="auto" autoplay="true" loop="loop" controls>
+    <source src="marvel.mp4" type="video/mp4">
+    Video not supported
+</video>
+<audio controls>
+<source src="filename" type="audio/filetype">
+<audio controls autoplay>
+    <source src="Sherlock_Chase_Theme.mp3" type="audio/mp3">
+</audio>
+<iframe > - youtube videos,google maps copy embeded code and paste in the required region
+
+table,tr,captions,th,td
+entities : 
+	&lt,&gt for <,> - used bcz they have specific tag open close by default
+	html emojis and other stuff that are not available in the keyboard can be used with the help of entities
+	<meta charset= "UTF-8"> - must include for emojis
+
+--------------------------------------css---------------------------------------
+selector{ property:value;}h1{color:red;}
+<style> tag must be used to emmbed css code in it
+3 ways to style - 
+		inline- <h1 style="color:red;">
+		internal-inside the head section using style tag
+		external 
+Types of selectors - 
+			id-#idname
+			class-.classname
+			universal selector-*
+			grouping selectors- can be achived by combining elements and seperated by commas
+			pseudo selector - used to define special state of an element. ex: hover -mouse movement style, style visited and unvisited links diff ex: a:hover{color: blue}
+			
+CSS Box Model-
+		margin			
+		border
+		padding
+		content
+Css color- 
+	   color:rgb(0,0,0);
+	   hexadecimal - color:#0000FF;
+	   hsl(hue,saturation,lightness) color:hsl(267,10%,10%);
+		 hue-degree on color wheel from 0 to 360, 0-red, 120- green, 240-blue.
+		 saturation- precentage value, 0% mean gray, 100% is full color.
+		 lightness - precentage value, 50% neither light nor dark, 100% is white.
+
+
+	   rgba(red,green,blue,alpha) alpha-opacity b/w 0.0-1.0 ,hsla
+Css background-
+		background-color:rgb,hsl,rgba,hsla, color name,hexadecimal
+		background-image:url("imagename.extension");
+		background-repeat:repeat-x,y,no-repeate
+Css text-
+	color,background-color
+	text-align:center,right,left,justified
+	text-decoration:line-through
+	text-decoration-color:red
+	text-decoration-style:wavy,dotted,dashed
+	text-transform:uppercase,lowercase,capitalise
+	text-indent:10px;
+	letter-spacing:10px;
+	line-height:1px;
+	word-spacing:20px;
+	white-space:no-wrap,wrap;
+	text-shadow:2px 2px red;
+list-style:circle,square;
+--------------------------------------javascript--------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

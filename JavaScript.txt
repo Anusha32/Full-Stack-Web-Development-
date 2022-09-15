@@ -1,0 +1,134 @@
+------------------------------------JavaScript----------------------------------
+Protype based language.
+Along with html and css javascript is dedicated language for world wide web.
+javascript-
+livescript does not relate to language,
+javascript requries a preinstalled javascript virtual machine, 
+different browsers have different names for javascript embedded machine
+
+<script> js prgms can be inserted in any part of the html document
+
+Interactions with the user:
+
+1. alert('message') | window.alert(msg) - alert message will be dispalyed 
+2. let result=prompt(title, [default]); -It shows a modal window with a text message , an input field for the visitor , and OK / Cancel .
+	title: text to show to the visitor, default- optional pram, the initial value for input field.
+3. confirm(question) - The function confirm shows a modal window with a question and two buttons : OK and Cancel .
+      		       The result is true if OK is pressed and false otherwise .
+
+Variables: 
+
+In variables data defined can vary.
+var message = "data"; = let messsage = "data";
+console.log(message) - used to display the variables inside the console
+
+Constants:
+
+To declare a constant ( unchanging ) variable , use Const .
+Variables declared using const are called " constants " .
+They cannot be reassigned . An attempt to do so would cause an error .
+const myBirthday = '18 .04.1982 ' ;
+myBirthday= 01.01.2001 ' ; // error , can't reassign the constant
+constants can be used as alias in our code
+const mycolor=black
+
+Datatypes:
+A variable in JavaScript can contain any data . A variable can at one moment be a string and at another be a number :
+let message = " hello " ;
+message = 123456 ;
+
+Strings: 
+3 type declaration '' "" ``-backticks
+Backticks are " extended functionality " quotes . They allow us to embed
+variables and expressions into a string by wrapping them in $ { ... } , for example : 
+let v = "anusha";
+alert(`Hello ${v}`};
+
+null:
+special datatype , not refrence to nonexsisting pointer null represents nothing in js. ex: var age= null;
+
+undefined:
+the meaning- value is not assigned
+variable declared, but not assigned.
+
+object:
+1.Created with{} and list of properties. Property - key , value - anything
+	ex: let user = {		//object
+		name:"Anusha",		//key-name, value-"Anusha"
+		age: 20
+		};
+	     console.log(user.age); // displays user age in the console
+alert(JSON.stringify(user));//used in mongodb
+
+2. var emp = new Object();
+	emp.id = 100; //100 o/p
+	emp.name="anu";//anu o/p
+	console.log(emp); //{id:100, name:"anu"}
+
+//javascript is not a class based structure it is infacat an object based structure
+
+Functions:
+function declaration:
+	function name(param){		function msg(){
+		body				alert('Hello');
+	}				}
+
+function invocation: 
+1.msg();
+
+
+2.
+<body>
+<p id="Hello"></p>
+<script>
+function add(p1,p2){
+	return p1+p2;
+}	
+document.getElementById("Hello").innerHTML=add(5,8);//Inner HTML changes the content of the html
+document.write("Hello World");//prints the message inside
+</script>
+
+3.<script>
+function sum(a,b){
+	return a+b;
+	}
+let result = sum(5,5);
+alert(result);
+</script>
+
+Conditional Statements:
+if(cond){..}else if(cond){..}else{..}
+
+prompt("What is your name");// prompt can be used to get value from the user and can be stored in a variable
+
+Loops: while & for - repeat actions
+do .. while - first do the body then check the cond.
+
+switch statement: switch(x){ case'val1': cond break; case 'val2': cond break;}
+
+JS Forms:
+refer the file named one.html
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

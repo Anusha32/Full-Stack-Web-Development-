@@ -1,0 +1,155 @@
+#nav{
+    text-align:right;
+    margin-right: 0px;
+   
+}
+a:hover{
+    color:black;
+}
+a{
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:small;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: auto;
+    z-index: 1;
+  }
+  
+  /*.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  */
+  /*.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  */
+  
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+ /* .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  */
+
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    color:rgb(255,255,255);
+    font-style:italic;
+  }
+  .down {
+    position: absolute;
+    top:70%;
+    bottom:100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: xx-large;
+    color:rgb(255, 255, 255);
+   
+  }
+  #h1id{
+    text-align: center;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .art{
+    text-align: center;
+    border: 15px dotted rgb(2, 2, 165);
+    padding:0px;
+  }
+  #h1id2{
+    color:red;
+    border-style: solid;
+    padding: 0px;
+    margin:20px;
+  }
+  #p1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:blue;
+    font-size: xx-large;
+  }
+  #p2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  .form-style{
+    font: 100% Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 16px;
+    background: rgb(255, 255, 255);
+  }
+  .form-style h1{
+    background: rgb(248, 121, 36);
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: rgb(7, 7, 7);
+    margin: -16px -16px 16px -16px;
+  }
+  .form-style input[type="text"],
+  .form-style input[type="number"],
+  .form-style textarea,
+  .form-style select 
+  {
+    
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 1%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+  }
+  .form-style input[type="text"]:focus,
+  .form-style input[type="number"]:focus,
+  .form-style textarea:focus,
+  .form-style select:focus
+  {
+    box-shadow: 0 0 5px rgb(238, 57, 11);
+    padding: 3%;
+    border: 1px solid rgb(250, 12, 12);
+    color:black;
+    background-color: red;
+  }
+  
+  .form-style input[type="submit"]{ 
+    width: 100%;
+    padding: 3%;
+    background: rgb(255, 60, 0);
+    border-bottom: 2px solid #30C29E;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;	
+    color: #fff;
+  }
+  .form-style input[type="submit"]:hover{
+    background: #2EBC99;
+  }

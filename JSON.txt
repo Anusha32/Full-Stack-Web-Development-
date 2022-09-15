@@ -1,0 +1,66 @@
+------------------------------------JSON----------------------------------------
+JSON is an imp to send data from client to server and vice versa.
+JSON - javascript object notation, it is a subset of javascript- consits of objects that is notated in the form of a js object.
+
+Advantages of using JSON:
+lightweight format, simple way to transfer data and not complex.
+commonly used for APIs and configs.
+Easy to read/write.
+Integrates with most languages.
+Oftenly used with ajax(dyanamic web page and used when we dont want to refresh the page and page is automatically refreshed) and xml.
+
+JSON DATA TYPES:
+1. Strings "Anusha"
+2. Numbers 123 
+3.Boolean 
+4.Null null 
+5. Arrays - collection of similar datatype.
+6. Object {key value pair} for a particular key(property) a value will be assigned
+
+Function in json:
+We cannot add function in json(JavaScript Object notation) but in javascript object we can add a function.
+It will not be validated in json.
+ <script>
+        var person = {
+            "name": "Anu",
+            "age": 20,
+            "email": function() {
+                return "anushabr3@gmail.com";
+            },
+            "college": function() {
+                return "dsatm";
+            }
+	    "cities":["Bangalore","Mumbai"]
+
+
+        }
+        console.log(person.college())
+</script>
+
+body>
+
+    <ul id = 'demo'> </ul>
+    <script>
+        var output=" ";
+         var people=[
+            {
+                "name" : "Anusha",
+                "age" :20
+            },
+            {
+                "name" : "Raju",
+                "age" : 51
+            }
+        ];
+
+        for(var i=0; i<people.length; i++){
+
+            //console.log(people);
+            //console.log(people[i].name);
+            output += '<li>' + people[i].name +'<li>';
+        }
+        document.getElementById('demo').innerHTML = output;
+
+       
+    </script>
+</body>

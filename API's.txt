@@ -1,0 +1,50 @@
+---------------------------------------API----------------------------------------------------
+An application program interface (API) is a set of routines,
+protocols, and tools for building software applications
+
+Popular API Examples
+1. Google Maps APIs
+2. Youtube APIs
+3. Twitter APIs
+ex-restaurant waiter intermediate b/w user and cook
+
+Types of API:
+
+1. Open API's or Public API's - 
+			publically available to the developer and users with minimal restrictions. 
+			May require a registration  or use of authentication key.or may be completely open to the end users 
+2. Partner APIs -
+		Partner APIs are APIs exposed by/to the strategic business partners. 
+		They are not available publicly and need specific entitlement to access them.
+		They are usually exposed to a public API developer portal that developers can access in self-service mode	
+3. Internal APIs -
+		Internal APIs, aka private APIs, are hidden from external users and only exposed by internal systems.
+		Internal APIs are not meant for consumption outside of the company but rather for use across internal development teams for better productivity and reuse of services.
+4. Composite APIs -
+		Composite APIs combine multiple data or service APIs. 
+		They are built using the API orchestration capabilities of an API creation tool. 
+ 
+
+APIs Protocols:
+
+1. REST - REST (Representational State Transfer) is a web services API. 
+	    REST APIs are a key part in modern web applications, including Netflix, Uber, Amazon and many others.
+
+			RESTful, it must adhere to the following rules:
+	    				Stateless — A REST API is, by nature, a stateless Client-Server Architecture
+					Uniform Interface — A client and server should communicate with one another via HTTP (HyperText Transfer Protocol) using URIs (Unique Resource Identifiers), CRUD (Create, Read, Update, Delete), and JSON (JavaScript Object Notation) conventions.
+					Client-Server — The client and server should be independent of each other. The changes you make on the server shouldn’t affect the client and vice versa.
+					Cache — The client should cache the responses as this improves the user experience by making them faster and more efficient.
+					Layered — The API should support a layered architecture, with each layer contributing to a clear hierarchy. Each layer should be loosely coupled and allow for encapsulation.
+
+2. SOAP - SOAP (simple object access protocol) is a well-established protocol similar to REST in that it’s a type of Web API.
+		But SOAP came with strict rules, rigid standards were too heavy, and, in some situations, very resource-intensive. 
+		Except for existing on-premises scenarios, most developers now prefer developing in REST over SOAP.
+
+3. RPC - An RPC is a remote procedural call protocol. 
+	   They are the oldest and simplest types of APIs.
+	   The goal of an RPC was for the client to execute code on a server. 
+	   XML-RPC used XML to encode its calls, while JSON-RPC used JSON for the encoding.
+	   Both are simple protocols. Though similar to REST, there are a few key differences. 
+	   RPC APIs are very tightly coupled, making it difficult to maintain or update them.
+
