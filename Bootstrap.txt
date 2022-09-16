@@ -1,5 +1,32 @@
---------------------------------Bootstrap---------------------------------------
+-----------------------------------------Bootstrap-------------------------------------------
+
 Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites. 
 Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. 
 It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
 
+JS Library :
+
+A JavaScript library is a library of pre-written JavaScript 
+that allows for easier development of JavaScript-based
+applications, especially for AJAX and other web-centric
+technologies
+ex: jQuery - js library that simplify the dom manipulation 
+
+JS Framework :
+
+JS frameworks are collections of JavaScript code libraries
+that provide developers with pre-written JS code to use for
+routine programming features and tasks-—literally a
+framework to build websites or web applications around
+ex: bootstrap, Angular js, Django
+
+
+A software framework is not just a library. 
+It also includes a particular design architecture which users must work within -
+ a sort way in which different items in the library are connected together to provide a generic solution for a particular application type.
+Frameworks thus have the advantage of needing only configuration by the user and validation of pre-written tests to become operational. 
+With libraries alone users need to design an architecture and create tests before implementation. So more work is needed with just the libraries.
+But libs are flexible & potentially more efficient. 
+
+Content delivery networks (CDN) are the transparent backbone of the Internet in charge of content delivery.
+
