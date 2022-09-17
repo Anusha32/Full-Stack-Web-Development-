@@ -20,15 +20,29 @@ components are :-
  collection of html,css,js
  can be written in pure js or jsx
  jsx- javascript syntax extension
+ react can be used to not only build web applications but it can also be used to build desktop apps and mobile apps
 
-benifits of react, application of react
+ReactJS is all about components
+
+Components let you split the UI into independent, reusable
+pieces, and think about each piece in isolation
+
+ReactJS application is made up of multiple components,
+and each component has its own logic and controls
+
+in react there is only one way data binding.
 
 DOM: 
 programming API for HTML and XML doc. 
 DOM is a tree like rep. of a web page that gets loaded into the browser.
 Using react a local DOM will be created and then only the thing that changes will be updated.
 Compute minimal set of changes to apply to the DOM.
-Virtual dom will be created. This prevents the reloading of web page the virtual dom will get updated with the original one
+
+Virtual dom:
+Virtual dom will be created virtural dom object is a rep. of the original dom object. 
+This prevents the reloading of web page the virtual dom will get updated with the original one
+Checks the difference btwn the previous dom rep and new dom and the real dom will update only
+those parts where changes are applied.
 
 
 html, css, js- entire code runs on the browser
@@ -51,6 +65,10 @@ cd myapp
 npm start
 
 
+you can reassign  or redefine a variable in var declaration but u cannot do it in let and const
+so we use let and const instead of var.
+
+this refers to the instance of the parent class
 
 
 
