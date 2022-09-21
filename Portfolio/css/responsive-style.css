@@ -14,9 +14,24 @@
         font-size: 20px;
     }
 
-    
+     /* 2 Navbar */
+     .header-scrolled{
+        height: auto;
+     }
+     .header_wrapper .menu-navbar-nav{
+        text-align: center;
+        background-color: var(--bg-dark-blue);
+        padding-bottom: 15px;
+     }
+
+     .header_wrapper .nav-item .nav-link{
+        margin-top: 15px;
+     }
 
      /*banner wrapper */
+     .banner_wrapper{
+        padding: 200px 0;
+     }
 
      /* About */
     

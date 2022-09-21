@@ -232,3 +232,12 @@ button{
    color: var(--primary-text);
 }
 
+/* 3 Banner*/
+
+.banner_wrapper{
+    width: 100%;
+    height: auto;
+    min-height: 1000px;
+    padding: 200px 0 100px 0;
+    background-attachment: fixed;
+}
