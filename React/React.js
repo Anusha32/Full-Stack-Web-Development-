@@ -70,6 +70,16 @@ so we use let and const instead of var.
 
 this refers to the instance of the parent class
 
+React components:
+
+Can be created by:
+1.Class component
+2.Function component
+3.component constructor
+4.nested components
+5.components in files
+
+
 
 
 
