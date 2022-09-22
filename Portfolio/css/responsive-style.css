@@ -33,6 +33,11 @@
         padding: 200px 0;
      }
 
+     .about_wrapper ul.nav-pills{
+        width: 61%;
+        margin: auto;
+     }
+
     
      /* portfolio */
 }
@@ -53,6 +58,14 @@
     }
 
      /*About*/
+     .about_wrapper ul.nav-pills{
+        width: 100%;
+        margin: auto;
+        border: 0;
+     }
+     .about_wrapper ul li .nav-link{
+      font-size: 13px;
+     }
 
       /*portfolio*/
     

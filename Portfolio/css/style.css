@@ -244,8 +244,39 @@ button{
 
 /* 4 About */
 
+.about_wrapper ul.nav-pills{
+    border: 1px solid var(--gray-color);
+    border-radius: 50px ;
+}
+
+.about_wrapper ul li .nav-link{
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: al 0.45s cubic-bezier(0,0,0.2,1);
+    display: inline-block;
+    color: var(--text-gray);
+    border: 0;
+
+}
+
+.about_wrapper ul li .nav-link.active{
+    background-color: var(--primary-color);
+}
+.about_wrapper .tab-pane li{
+    color: var(--gray-color);
+    font-size: 16px;
+    margin-bottom: 15px;
+    list-style: none;
+}
+.about_wrapper .tab-pane li a{
+    font-weight: 500;
+    display: block;
+    color: var(--text-gray);
+}
 
 
+/* 5 Skills*/
 
 .services_wrapper .card{
     background-color: var(--bg-dark-blue);
@@ -259,7 +290,7 @@ button{
     transform: translateY(-5px);
 }
 
-/* 5 Contact */
+/* 6 Contact */
 .contact_wrapper .form-control,
 .contact_wrapper textarea{
     background-color: transparent;
