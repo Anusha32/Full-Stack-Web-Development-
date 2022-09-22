@@ -286,3 +286,34 @@ button{
     color: var(--text-gray);
 }
 
+/* 6 Footer */
+.foote_wrapper{
+    background-color: var(--bg-dark-blue);
+    padding: 20px 0;
+}
+
+
+
+.foote_wrapper .social-icon li{
+    margin:6px;
+}
+
+.foote_wrapper .social-icon a{
+    width: 35px;
+    height: 35px;
+    line-height: 40px;
+    font-size: 15px;
+    display: inline-block;
+    /* border: 2px solid var(--text-gray); */
+    color: var(--text-gray);
+    border-radius: 100%;
+    -webkit-transition: all 0.3s cubic-bezier(0.645,0.045,0.355,1);;
+    transition: all 0.3s cubic-bezier(0.645,0.045,0.355,1);
+}
+
+.foote_wrapper .social-icon a:hover{
+    /* background-color: var(--primary-color); */
+    color: var(--text-white);
+    box-shadow: 0 10px 15px 0 rgb(0, 0, 0 / 10%);
+    transform: translateY(-3px);
+}
