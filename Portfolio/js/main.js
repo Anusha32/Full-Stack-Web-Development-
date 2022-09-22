@@ -10,9 +10,6 @@ window.onscroll = function(){
     }
 }
 
-
-
-
 // nav hide
 
 let navBar = document.querySelectorAll(".nav-link");
@@ -22,3 +19,5 @@ navBar.forEach(function (a){
         navCollapse.classList.remove("show");
     });
 });
+
+
