@@ -1,0 +1,77 @@
+-------------------------------------PHP----------------------------------------------------
+Server-side Programming : 
+
+Server-side scripting is a technique used in web development which involves employing scripts on a wel
+server which produce a response customized for each user's request to the website.
+Client side Programing : scripts executed in the clients side.
+
+Php is executed on the server side. Widely-used open source scripting language.
+
+Php file - can contain client side language along with the php code.
+
+PHP can:
+
+encrypt data
+create, open, read, write, delete, and close files on the server
+send and receive cookies
+collect form data
+add, delete, modify data in your database
+to control user-access
+
+A PHP script can be placed anywhere in the document.
+
+<?php
+// PHP code goes here
+?>
+
+The default file extension for PHP files is "php".
+
+A PHP file normally contains HTML tags, and some PHP scripting code.
+
+Case Sensitivity : 
+not case sensitive.
+
+Comments : 
+// # /**/
+
+Variables :
+$ variable name. ex: $txt="Hello"; echo $txt;
+
+echo or print to display data
+print can take only one param . echo = multiple
+echo no return value . print return value.
+print can be used with or without parantheses
+
+$web = array("html","css","js");
+var_dump($web);
+ 
+Conditions: if else ifelse switch
+Loops: for while do...while foreach
+
+
+Some predefined variables in PHP are "superglobals", which means that
+they are always accessible, regardless of scope - and you can access them
+from any function, class or file without having to do anything special.
+
+The PHP superglobal variables are:
+
+$GLOBALS
+$_SERVER
+$_POST
+$_GET
+$_SESSION and few more.
+
+$_GLOBALS:
+
+$_GLOBALS is a PHP super global variable which is used to access global
+variables from anywhere in the PHP script (also from within functions or
+methods).
+PHP stores all global variables in an array called $GLOBALS[index].
+The index holds the name of the variable.
+
+
+
+
+
+	
+
